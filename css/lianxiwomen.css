@@ -1,0 +1,268 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: white;
+}
+#menu7{
+	color: #ffba6d;
+}
+/*------------------------INDEX中间核心部分，包括index top和index正中心内容-----------------*/
+.banner_bag {
+	height: 620px;
+	width: 100%;
+	background: url(../img/index/banner_bg.jpg);
+	background-size: cover;
+}
+
+/*--------------INDEX最上方部分，即首页->产品------------------------*/
+.banner_bag_top {
+	height: 57px;
+	width: 100%;
+	background: url(../img/index/banner_bg.jpg);
+}
+
+/*------------------显示字的div-----------------*/
+.banner_bag_top_list {
+	height: 57px;
+	width: 1000px;
+	margin: auto;
+	line-height: 57px;
+}
+
+/*----------------INDX下半部分---------------------------------*/
+.banner_bag_main {
+	height: 520px;
+	width: 1000px;
+	margin: auto;
+}
+
+/*---------------中间文本框，原有height：520px，width：1000px-------*/
+.banner_bag_main .content {
+	width: 960px;
+	height: 640px;
+	padding-top: 40px;
+	padding-left: 40px;
+	background: url(../img/lianxiwomen/bg-1.png);
+}
+
+.banner_bag_main .content .content_left {
+	width: 610px;
+	height: 480px;
+	float: left;
+}
+
+.banner_bag_main .content .content_left .content_left_first {
+	height: 18px;
+	width: 610px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.banner_bag_main .content .content_left .content_left_first .content_left_select{
+	color: black;
+	width: 322px;
+	height: 32px;
+	float: left;
+	margin-right: 30px;
+}
+.banner_bag_main .content .content_left .content_left_first .content_left_select  option{
+	color: black;
+}
+
+.banner_bag_main .content .content_left .content_left_second {
+	width: 610px;
+	height: 32px;
+	margin-bottom: 20px;
+}
+
+.banner_bag_main .content .content_left .content_left_second .content_left_second_1 {
+	width: 314px;
+	height: 32px;
+	background: url(../img/lianxiwomen/bg-2.png);
+	margin-right: 30px;
+	float: left;
+	color: black;
+	overflow: hidden;
+	border: 0;
+	padding-left: 6px ;
+}
+
+.banner_bag_main .content .content_left .content_left_second .content_left_second_2 {
+	width: 220px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: bold;
+	float: left;
+}
+
+.banner_bag_main .content .content_left .content_left_third{
+	width: 492px;
+	height:180px;
+	background: url(../img/lianxiwomen/bg-3.png);
+	margin-bottom: 20px;
+	color: black;
+	overflow: auto;
+	border: 0;
+	padding-left: 8px;
+}
+
+.banner_bag_main .content .content_left .content_left_four {
+	width: 120px;
+	height: 32px;
+	background: url(../img/lianxiwomen/bg-4.png);
+	text-align: center;
+	line-height: 32px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.banner_bag_main .content .content_left .content_left_four:hover{
+	color: #ffba6d;
+}
+
+.banner_bag_main .content .content_right {
+	width: 310px;
+	height: 480px;
+	float: left;
+}
+
+.banner_bag_main .content .content_right .content_right_first {
+	height: 18px;
+	width: 310px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.banner_bag_main .content .content_right .content_right_second {
+	height: 20px;
+	width: 310px;
+	margin-bottom: 10px;
+}
+
+.banner_bag_main .content .content_right .content_right_second .content_right_second_1 {
+	height: 20px;
+	width: 20px;
+	background: url(../img/lianxiwomen/qq.png) no-repeat;
+	float: left;
+	margin-right: 25px;
+}
+
+.banner_bag_main .content .content_right .content_right_second .content_right_second_2 {
+	height: 20px;
+	width: 250px;
+	float: left;
+}
+
+.banner_bag_main .content .content_right .content_right_third {
+	height: 20px;
+	width: 310px;
+	margin-bottom: 10px;
+}
+
+.banner_bag_main .content .content_right .content_right_third .content_right_third_1 {
+	height: 20px;
+	width: 20px;
+	background: url(../img/lianxiwomen/telphone.png) no-repeat;
+	float: left;
+	margin-right: 25px;
+}
+
+.banner_bag_main .content .content_right .content_right_third .content_right_third_2 {
+	height: 20px;
+	width: 250px;
+	float: left;
+}
+
+.banner_bag_main .content .content_right .content_right_four {
+	height: 20px;
+	width: 310px;
+	margin-bottom: 10px;
+}
+
+.banner_bag_main .content .content_right .content_right_four .content_right_four_1 {
+	height: 20px;
+	width: 20px;
+	background: url(../img/lianxiwomen/chuanzhen.png) no-repeat;
+	float: left;
+	margin-right: 25px;
+}
+
+.banner_bag_main .content .content_right .content_right_four .content_right_four_2 {
+	height: 20px;
+	width: 250px;
+	float: left;
+}
+
+.banner_bag_main .content .content_right .content_right_five {
+	height: 20px;
+	width: 310px;
+	margin-bottom: 10px;
+}
+
+.banner_bag_main .content .content_right .content_right_five .content_right_five_1 {
+	height: 20px;
+	width: 20px;
+	background: url(../img/lianxiwomen/weibo.png) no-repeat;
+	float: left;
+	margin-right: 25px;
+}
+
+.banner_bag_main .content .content_right .content_right_five .content_right_five_2 {
+	height: 20px;
+	width: 250px;
+	float: left;
+}
+
+.banner_bag_main .content .content_right .content_right_six {
+	height: 20px;
+	width: 310px;
+	margin-bottom: 10px;
+}
+
+.banner_bag_main .content .content_right .content_right_six .content_right_six_1 {
+	height: 20px;
+	width: 20px;
+	background: url(../img/lianxiwomen/weixin.png) no-repeat;
+	float: left;
+	margin-right: 25px;
+}
+
+.banner_bag_main .content .content_right .content_right_six .content_right_six_2 {
+	height: 20px;
+	width: 250px;
+	float: left;
+}
+
+.banner_bag_main .content .content_right .content_right_seven {
+	height: 20px;
+	width: 310px;
+	margin-bottom: 10px;
+}
+
+.banner_bag_main .content .content_right .content_right_seven .content_right_seven_1 {
+	height: 20px;
+	width: 20px;
+	background: url(../img/lianxiwomen/email.png) no-repeat;
+	float: left;
+	margin-right: 25px;
+}
+
+.banner_bag_main .content .content_right .content_right_seven .content_right_seven_2 {
+	height: 20px;
+	width: 250px;
+	float: left;
+}
+
+.banner_bag_main .content .content_right .content_erweima{
+	height: 140px;
+	width: 140px;
+	float:left;
+	margin-top: 14px;
+}
+.banner_bag_main .content .content_right .content_erweima img{
+	height: 210px;
+	width: 210px;
+}

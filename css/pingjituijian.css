@@ -1,0 +1,275 @@
+.tj_bag{
+	width: 1000px;
+	height: 740px;
+	background-color: #442d26;
+	float: left;
+	margin-top: 12px;
+}
+#menu5{
+	color: #ffba6d;
+}
+#fd_tuijian{
+	background: url(../img/friend/fd_friend.png);
+	color: black;
+}
+#fd_friend{
+	color: white;
+	background: url(../img/friend/friend_wode.png);
+}
+.tj_bag .tj_box1{
+	width: 944px;
+	height: 24px;
+	margin-left: 28px;
+	margin-top: 25px;
+}
+.tj_bag .tj_box1 .tj_niandu,.tj_dazong,.tj_shaixuan{
+	display: block;
+	float: left;
+	width: auto;
+	height: auto;
+	margin-top: 3px;
+}
+.tj_bag .tj_box1 .tj_niandu1,.tj_dazong1,.tj_shaixuan1{
+	float: left;
+	height: 24px;
+	background-color: white;
+	margin-right: 28px;
+	display: block;
+	border: 0;
+}
+.tj_bag .tj_box1 .tj_niandu1{
+	width: 180px;
+}
+.tj_bag .tj_box1 .tj_dazong1,.tj_shaixuan1{
+	width: 140px;
+}
+.tj_bag .tj_box1 .tj_box1_jiantou{
+	width: 6px;
+	height: 12px;
+	float: right;
+	margin-right: 7px;
+	margin-top: 2px;
+}
+.tj_bag .tj_box1 .tj_box1_font{
+	color: #707070;
+	float: left;
+	font-size: 12px;
+	margin-left: 4px;
+}
+.tj_bag .tj_box2{
+	width: 944px;
+	height: 640px;
+	background: url(../img/pingjituijian/mcb_content.png);
+	margin-top: 18px;
+	margin-left: 28px;
+	position: relative;
+}
+.tj_bag .tj_box2 .tj_box2_left,.tj_box2_right{
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	bottom: 71px;
+}
+.tj_bag .tj_box2 .tj_box2_left{
+	left: 46px;
+}
+.tj_bag .tj_box2 .tj_box2_right{
+	right: 46px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag{
+	width: 736px;
+	height: 640px;
+	overflow: hidden;
+	position: absolute;
+	left: 104px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content{
+	width: 2000px;
+	height: 640px;
+	position: relative;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_tianjia{
+	width: 120px;
+	height: 100px;
+	position: absolute;
+	bottom: 46px;
+	background-color: white;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_tianjia .tj_box2_ct_tj_bag{
+	width: 91px;
+	height: 50px;
+	border: 0;
+	background: url(../img/pingjituijian/tj_tj_bag.png);
+	margin-left: 13px;
+	margin-top: 12px;
+	cursor: pointer;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_tianjia .tj_box2_ct_tj_bag .tj_box2_ct_tj_font:hover{
+	color: #ffba6d;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_tianjia .tj_box2_ct_no{
+	color: #442d26;
+	text-align: center;
+	line-height: 14px;
+	margin-top: 11px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_mingci{
+	text-align: center;
+	color: black;
+	width: 120px;
+	height: auto;
+	position: absolute;
+	line-height: 24px;
+	font-size: 18px;
+	bottom: 165px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar{
+	width: 80px;
+	height: auto;
+	position: absolute;
+	bottom: 228px;
+	left: 34px;
+	padding-left: 4px;
+	padding-right: 5px;
+}
+
+
+
+/*--------------tips弹出样式-------------------*/
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar .tips {
+	height: 200px;
+	width: 184px;
+	background: url(../img/protect_show/bg_1.png);
+	display: none;
+	float: left;
+	position: absolute;
+	top:26px;
+	left: 60px;
+	z-index: 3;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar .tips_active {
+	height: 200px;
+	width: 184px;
+	background: url(../img/protect_show/bg_2.png);
+	display: none;
+	float: left;
+	position: absolute;
+	top:26px;
+	left: -180px;
+	z-index: 3;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar:hover .tips {
+	display: block;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar:hover .tips_active {
+	display: block;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar .tips .tips_top {
+	height: 46px;
+	width: 135px;
+	line-height: 44px;
+	border-bottom: 1px solid white; 
+	margin-left: 34px;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar .tips .tips_middle {
+	height: 63px;
+	width: 135px;
+	line-height: 24px;
+	margin-left: 34px;
+	margin-top: 5px;
+	font-size: 12px;
+	border-bottom: 1px solid white;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar .tips .tips_foot {
+	height: 39px;
+	width: 135px;
+	text-align: center;
+	margin-left: 34px;
+	line-height: 39px;
+	font-size: 12px;
+	border-bottom: 1px solid white;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar .tips .tips_foot1 {
+	height: 49px;
+	width: 135px;
+	margin-left: 34px;
+	line-height: 39px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+
+
+
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar .tips_active .tips_top {
+	height: 46px;
+	width: 135px;
+	line-height: 44px;
+	border-bottom: 1px solid white; 
+	margin-left: 14px;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar .tips_active .tips_middle {
+	height: 63px;
+	width: 135px;
+	line-height: 24px;
+	margin-left: 14px;
+	margin-top: 5px;
+	font-size: 12px;
+	border-bottom: 1px solid white;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar .tips_active .tips_foot {
+	height: 39px;
+	width: 135px;
+	text-align: center;
+	margin-left: 14px;
+	line-height: 39px;
+	font-size: 12px;
+	border-bottom: 1px solid white;
+}
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content .tj_box2_ct_cigar .tips_active .tips_foot1 {
+	height: 49px;
+	width: 135px;
+	margin-left: 14px;
+	line-height: 39px;
+	font-size: 12px;
+	cursor: pointer;
+}
+/*-----------------弹出样式结束------------------*/
+
+
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content #tj_box2_ct_tianjia2,#tj_box2_ct_mc2{
+	left: 164px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content #tj_box2_ct_cigar2{
+	left: 198px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content #tj_box2_ct_tianjia3,#tj_box2_ct_mc3{
+	left: 328px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content #tj_box2_ct_cigar3{
+	left: 362px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content #tj_box2_ct_tianjia4,#tj_box2_ct_mc4{
+	left: 492px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content #tj_box2_ct_cigar4{
+	left: 526px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content #tj_box2_ct_tianjia5,#tj_box2_ct_mc5{
+	left: 656px;
+}
+.tj_bag .tj_box2 .tj_box2_ct_bag .tj_box2_content #tj_box2_ct_cigar5{
+	left: 690px;
+}

@@ -1,0 +1,55 @@
+.banner_bag{
+	width: 100%;
+	height: 588px;
+	background-image: url(../img/index/banner_bg.jpg);
+	background-size: cover;
+	padding-top: 20px;
+}
+.banner_bag .banner{
+	width: 1000px;
+	height: 601px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+	position: relative;
+	left: 0;
+	top: 0;
+	position: relative;
+	z-index: 3;
+}
+.banner_bag .banner .img_list{
+	width:5100px;
+	height: 601px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin:-2px 0 0 -2px;
+}
+.banner_bag .banner .img_list img{
+	display: block;
+	float: left;
+	width:1002px;
+	border:0px;
+}
+.banner_bag .banner #banner_left,#banner_right{
+	width: 45px;
+	height: 100px;
+	opacity: 0.5;
+	border: 0;
+	cursor:pointer;
+}
+.banner_bag .banner #banner_left{
+	float: left;
+	background-image: url(../img/index/icon1.png);
+	position: absolute;
+	left: 24px;
+	top: 176px;
+	cursor:pointer;
+}
+.banner_bag .banner #banner_right{
+	float: right;
+	background-image: url(../img/index/icon2.png);
+	position: absolute;
+	right: 24px;
+	top: 176px;
+}

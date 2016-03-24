@@ -1,0 +1,838 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+/*------------------------INDEX中间核心部分，包括index top和index正中心内容-----------------*/
+.banner_bag {	
+	width: 100%;
+	background: url(../img/index/banner_bg.jpg);
+	background-size: cover;
+}
+
+/*--------------INDEX最上方部分，即首页->产品------------------------*/
+.banner_bag_top {
+	height: 43px;
+	width: 100%;
+	background: url(../img/index/banner_bg.jpg);
+}
+
+/*------------------显示字的div-----------------*/
+.banner_bag_top_list {
+	height: 43px;
+	width: 1000px;
+	margin: auto;
+	line-height: 43px;
+}
+
+/*----------------INDX下半部分---------------------------------*/
+.banner_bag_main {
+	width: 100%;
+}
+
+/*--------------正中心内容第一部分，原有height：300px width：1000px---------------*/
+.banner_bag_main .first_part {
+	height: 280px;
+	width: 970px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+	margin: auto;
+	background: url(../img/luntan/first_part_bg.png);
+}
+
+/*----------------------第一部分左边部分开始------------------------*/
+.banner_bag_main .first_part_left {
+	width: 300px;
+	height: 280px;
+	position: relative;
+	margin-right: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+.banner_bag_main .first_part_left .lunbo {
+	height: 280px;
+	width: 2400px;
+	position: absolute;
+}
+
+.banner_bag_main .first_part_left .lunbo img {
+	width: 300px;
+	height: 280px;
+	float: left;
+}
+
+.banner_bag_main .first_part_left ul{
+	width: 245px;
+	height: 28px;
+	margin-left: 6px;
+	margin-top: 6px;
+	float: left;
+	position: absolute;
+	top: 0px;
+}
+
+.banner_bag_main .first_part_left .lunbo_tupian_ac {
+	width: 28px;
+	height: 28px;
+	margin-left: 2px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 28px;
+	background: url(../img/luntan/bgggg.png);
+	float: left;
+	list-style: none;
+}
+
+.banner_bag_main .first_part_left .lunbo_tupian {
+	width: 28px;
+	height: 28px;
+	margin-left: 2px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 28px;
+	background: url(../img/luntan/first_part_left_num_bg.png);
+	float: left;
+	list-style: none;
+	cursor: pointer;
+}
+
+/*.banner_bag_main .first_part_left_num1 {
+	width: 28px;
+	height: 28px;
+	margin-left: 6px;
+	margin-top: 6px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 28px;
+	background: url(../img/luntan/first_part_left_num_bg.png);
+	float: left;
+}
+
+.banner_bag_main .first_part_left_num {
+	width: 28px;
+	height: 28px;
+	margin-left: 2px;
+	margin-top: 6px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 28px;
+	background: url(../img/luntan/first_part_left_num_bg.png);
+	float: left;
+}*/
+
+.banner_bag_main .first_part_left_bottom {
+	width: 300px;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 40px;
+	background: url(../img/luntan/first_left_bottom_bg.png);
+}
+
+/*-------------第一部分中间部分--------------------------------*/
+.banner_bag_main .first_part_middle {
+	width: 390px;
+	height: 280px;
+	margin-right: 20px;
+	float: left;
+}
+
+/*----------------中间部分第一行，包括标题和下面的小长条*/
+.first_part_middle .first_line {
+	height: 33px;
+	width: 390px;
+}
+
+.first_part_middle .first_line ul {
+	height: 31px;
+	width: 390px;
+}
+
+.first_part_middle .first_line .biaotiactive {
+	height: 31px;
+	width: 78px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 31px;
+	float: left;
+	list-style: none;
+	cursor: pointer;
+	color: #f8b551;
+}
+
+.first_part_middle .first_line .biaoti {
+	height: 31px;
+	width: 78px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 31px;
+	float: left;
+	list-style: none;
+	cursor: pointer;
+}
+
+/*.first_part_middle .first_line ul li:hover {
+	color: #f8b551;
+}*/
+
+
+
+.first_part_middle .first_line .first_line_num1 {
+	height: 31px;
+	width: 78px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 31px;
+	float: left;
+	color: #f8b551;
+}
+
+.first_part_middle .first_line .first_line_num {
+	height: 31px;
+	width: 78px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 31px;
+	float: left;
+}
+
+.first_part_middle .first_line .bottom1 {
+	height: 2px;
+	width: 390px;
+	background: url(../img/luntan/xiahuaxian2.png);
+	position: relative;
+}
+
+.first_part_middle .first_line .bottom1 img {
+	height: 2px;
+	width: 66px;
+	position: absolute;
+}
+
+.first_part_middle .first_line .bottom {
+	height: 2px;
+	width: 78px;
+	background: #533e35;
+	float: left;
+}
+
+.first_part_middle .second_line {
+	height: 205px;
+	width: 390px;
+	margin-top: 10px;
+}
+
+.first_part_middle .second_line ul {
+	height: 205px;
+	width: 390px;
+}
+
+.first_part_middle .second_line .index1 {
+	
+}
+
+.first_part_middle .second_line .index2 {
+	display: none;
+	
+}
+
+.first_part_middle .second_line .index3 {
+	display: none;
+	
+}
+
+.first_part_middle .second_line .index4 {
+	display: none;
+	
+}
+
+.first_part_middle .second_line .index5 {
+	display: none;
+	
+}
+
+
+.first_part_middle .second_line ul li {
+	height: 29px;
+	width: 390px;
+	list-style: none;
+}
+
+.first_part_middle .second_line ul li:hover {
+	
+}
+
+.first_part_middle .second_line ul li .second_line_content_1 {
+	width: 18px;
+	height: 29px;
+	line-height: 29px;
+	float: left;
+}
+
+.first_part_middle .second_line ul li .second_line_content_2 {
+	width: 320px;
+	height: 29px;
+	float: left;
+	line-height: 29px;
+}
+
+.first_part_middle .second_line ul li .second_line_content_2:hover {
+	color: #ec6941;
+}
+
+.first_part_middle .second_line ul li .second_line_content_3 {
+	width: 52px;
+	height: 29px;
+	line-height: 29px;
+	float: right;
+	overflow: hidden;
+}
+
+/*.first_part_middle .second_line .second_line_content {
+	height: 29px;
+	width: 390px;
+}
+
+.first_part_middle .second_line .second_line_content .second_line_content_1 {
+	width: 18px;
+	height: 29px;
+	line-height: 29px;
+	float: left;
+}
+
+.first_part_middle .second_line .second_line_content .second_line_content_2 {
+	width: 320px;
+	height: 29px;
+	float: left;
+	line-height: 29px;
+}
+
+.first_part_middle .second_line .second_line_content .second_line_content_3 {
+	width: 52px;
+	height: 29px;
+	line-height: 29px;
+	float: right;
+}*/
+/*------------------------第一部分中间结束------------------------*/
+
+/*-------------------第一部分右边部分开始----------------------*/
+.banner_bag_main .first_part_right {
+	width: 240px;
+	height: 280px;
+	float: left;
+}
+
+
+.first_part_right .top {
+	height: 33px;
+	padding-top: 7px;
+	width: 230px;
+	padding-left: 10px;
+	margin-top: 3px;
+	background: url(../img/luntan/first_rignt_top_bg.png);
+	margin-bottom: 6px;
+}
+
+.first_part_right .top .top_left {
+	width: 90px;
+	height: 32px;
+	color: #f8b551;
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+	background: url(../img/luntan/first_right_top_bg2.png);
+	float: left;
+	cursor: pointer;
+}
+
+.first_part_right .top .top_left_bad {
+	width: 90px;
+	height: 32px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+	float: left;
+	cursor: pointer;
+}
+
+.first_part_right .top .top_right {
+	width: 90px;
+	height: 32px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+	float: left;
+	cursor: pointer;
+}
+
+.first_part_right .top .top_right_active {
+	cursor: pointer;
+	width: 90px;
+	height: 32px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+	float: left;
+	color: #f8b551;
+	background: url(../img/luntan/first_right_top_bg2.png);
+}
+
+.first_part_right .middle {
+	height: 220px;
+	width: 240px;
+} 
+
+.first_part_right .middle .middle_index1 {
+	height: 220px;
+	width: 240px;
+}
+
+.first_part_right .middle .middle_index2 {
+	height: 220px;
+	width: 240px;
+	display: none;
+}
+
+
+.first_part_right .middle ul li {
+	height: 29px;
+	width: 240px;
+	border-bottom: 2px dashed;
+	list-style: none;
+}
+
+.first_part_right .middle ul li .middle_content_left {
+	width: 18px;
+	height: 19px;
+	margin-right: 10px;
+	line-height: 19px;
+	text-align: center;
+	float: left;
+	margin-top: 5px;
+}
+
+.first_part_right .middle ul li .middle_content_middle {
+	width: 100px;
+	height: 29px;
+	line-height: 29px;
+	float: left;
+}
+
+.first_part_right .middle ul li .middle_content_right {
+	width: 90px;
+	height: 29px;
+	line-height: 29px;
+	float: right;
+}
+
+#middle_content_left1 {
+	background: url(../img/luntan/first_right_top_bg3.png) no-repeat;
+}
+
+#middle_content_left2 {
+	background: url(../img/luntan/first_right_top_bg3.png) no-repeat;
+}
+
+#middle_content_left3 {
+	background: url(../img/luntan/first_right_top_bg3.png) no-repeat;
+}
+
+#middle_content_left4 {
+	background: url(../img/luntan/fitst_right_top_bg4.png);
+}
+
+#middle_content_left5 {
+	background: url(../img/luntan/fitst_right_top_bg4.png);
+}
+
+#middle_content_left6 {
+	background: url(../img/luntan/fitst_right_top_bg4.png);
+}
+
+#middle_content_left7 {
+	background: url(../img/luntan/fitst_right_top_bg4.png);
+}
+/*-----------------------第一部分结束------------------*/
+
+.banner_bag_main .second_part {
+	height: 52px;
+	width: 1000px;
+	margin: auto;
+}
+
+/*原有height：52px，width：60px*/
+.second_part_content {
+	height: 14px;
+	margin-top: 19px;
+	margin-bottom: 19px;
+	margin-right: 4px;
+	padding-right: 4px;
+	text-align: center;
+	line-height: 14px;
+	border-right: 2px solid;
+	float: left;
+}
+
+.second_part_content3 {
+	width: 69px;
+	height: 14px;
+	text-align: center;
+	margin-top: 19px;
+	margin-bottom: 19px;
+	line-height: 14px;
+	border-right: 2px solid;
+	float: left;
+}
+
+.second_part_content5 {
+	width: 220px;
+	height: 14px;
+	text-align: center;
+	line-height: 14px;
+	margin-bottom: 19px;
+	margin-top: 19px;
+	float: left;
+}
+.second_part_content5 a{ color: #ec6941;}
+
+.second_part_content6 {
+	width: 140px;
+	height: 52px;
+	text-align: center;
+	line-height: 52px;
+	float: right;
+}
+
+/*---------------------第二部分结束----------------------------*/
+/*------------------------------原有height：2020px width1000px----------------------*/
+.third_part {
+	width: 980px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 38px;
+	padding-right: 10px;
+	background: url(../img/luntan/third_part_bg.png);
+	margin: auto;
+}
+
+/*原有height：321px，width：980px*/
+.third_part .container {
+	width: 940px;
+	height: 307px;
+	padding-top: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: url(../img/luntan/bg2.png);
+	margin-bottom: 28px;
+}
+
+.third_part .container .line1 {
+	width: 940px;
+	height: 26px;
+	margin-bottom: 7px;
+}
+
+.third_part .container .line1 p {
+	float: left;
+}
+
+.third_part .container .line1 p a {
+	font-weight: bold;
+	font-size: 16px;
+	color: #6a3906;
+}
+
+.third_part .container .line1 .right {
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	float: right;
+	color: black;
+	margin-right: 5px;
+}
+
+.third_part .container .line1 .right a{ color: #6a3906;}
+
+.third_part .container .line1 .right_img {
+	width: 26px;
+	height: 26px;
+	float: right;
+}
+
+.third_part .container .xiahuaxian {
+	width: 940px;
+	height: 2px;
+	background: url(../img/luntan/xiahuaxian.png);
+	margin-bottom: 18px;
+}
+
+.third_part .container .scontainer {
+	width: 450px;
+	height: 100px;
+	/*background: url(../img/luntan/bg4.png);*/
+}
+
+.third_part .container .scontainer img {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+/*原有height：100px，width：350px*/
+.third_part .container .scontainer .index {
+	height: 93px;
+	width: 330px;
+	background: url(../img/luntan/bg4.png);
+	float: left;
+	padding-left: 20px;
+	padding-top: 7px;
+}
+
+.third_part .container .scontainer .index a{color: #6a3906;}
+.third_part .container .scontainer .index a:hover{text-decoration: underline;}
+/*第二个模板,原有height：382px，width：980px*/
+.third_part .container2 {
+	width: 940px;
+	padding-bottom:14px;
+	padding-top: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: url(../img/luntan/bg9.png);
+}
+
+.third_part .container2 p a {color: red;}
+.third_part .container2 p a:hover{text-decoration: underline;}
+.third_part .container2 p span{color: black; height: 20px;}
+
+.third_part .container2 .line1 {
+	width: 940px;
+	height: 26px;
+	margin-bottom: 7px;
+}
+
+.third_part .container2 .line1 p {
+	float: left;
+}
+
+.third_part .container2 .line1 p a{
+	font-weight: bold;
+	font-size: 16px;
+	color: #6a3906;
+}
+
+.third_part .container2 .line1 .right {
+	width: 121px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	float: right;
+	color: black;
+}
+
+.third_part .container2 .line1 .right_img {
+	width: 26px;
+	height: 26px;
+	float: right;
+}
+
+.third_part .container2 .xiahuaxian {
+	width: 940px;
+	height: 2px;
+	background: url(../img/luntan/xiahuaxian.png);
+	margin-bottom: 12px;
+}
+
+.third_part .container2 .scontainer {
+	width: 940px;
+	height: 90px;
+	background: url(../img/luntan/bg10.png);
+}
+
+.third_part .container2 .scontainer .left {
+	width: 650px;
+	height: 90px;
+	float: left;
+	margin-right: 10px;
+}
+
+.third_part .container2 .scontainer .left img {
+	width: 50px;
+	height: 43px;
+	margin-top: 24px;
+	margin-left: 15px;
+	margin-right: 14px;
+	float: left;
+}
+
+.third_part .container2 .scontainer .right {
+	width: 280px;
+	height: 90px;
+	float: left;
+}
+
+/*原有height：279px，width：980px*/
+.third_part .container3 {
+	width: 940px;
+	padding-bottom:14px;
+	padding-top: 14px;
+	padding-left: 10px;
+	padding-right: 20px;
+	background: url(../img/luntan/bg12.png);
+	
+}
+.third_part .container3_2 {
+	width: 940px;
+	padding-bottom:14px;
+	padding-top: 14px;
+	padding-left: 0px;
+	padding-right: 20px;
+	background: url(../img/luntan/bg12.png);
+	
+}	
+
+.third_part .container3 .line1 {
+	width: 940px;
+	height: 26px;
+	margin-bottom: 7px;
+}
+
+.third_part .container3 .line1 p {
+	float: left;
+}
+
+.third_part .container3 .line1 p a{
+	font-weight: bold;
+	font-size: 16px;
+	color: #6a3906;
+}
+
+.third_part .container3 .line1 .right {
+	width: 121px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	float: right;
+	color: black;
+}
+
+.third_part .container3 .line1 .right_img {
+	width: 26px;
+	height: 26px;
+	float: right;
+}
+
+.third_part .container3  .xiahuaxian {
+	width: 940px;
+	height: 2px;
+	background: url(../img/luntan/xiahuaxian.png);
+	margin-bottom: 12px;
+}
+
+.third_part .container3 .scontainer {
+	width: 940px;
+	height: 90px;
+	background: url(../img/luntan/bg10.png);
+}
+
+.third_part .container3 .scontainer .left {
+	width: 260px;
+	height: 90px;
+	float: left;
+	margin-right: 10px;
+}
+
+.third_part .container3 .scontainer .left img {
+	width: 50px;
+	height: 43px;
+	margin-top: 24px;
+	margin-left: 15px;
+	margin-right: 14px;
+	margin-bottom: 23px;
+	float: left;
+}
+
+/*第四个模板,原有height：180px，width：980px*/
+.third_part .container4 {
+	width: 940px;
+	height: 166px;
+	padding-top: 14px;
+	padding-left: 0px;
+	padding-right: 20px;
+	background: url(../img/luntan/bglast.png);
+}
+
+.third_part .container4 p span{ color: black;}
+.third_part .container4 p  a{color: #81511c;}
+
+.third_part .container4 .line1 {
+	width: 940px;
+	height: 26px;
+	margin-bottom: 7px;
+}
+
+.third_part .container4 .line1 p {
+	float: left;
+}
+
+.third_part .container4 .line1 p a{
+	font-weight: bold;
+	font-size: 16px;
+	color: #6a3906;
+}
+
+.third_part .container4 .line1 .right {
+	width: 121px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	float: right;
+	color: black;
+}
+
+.third_part .container4 .line1 .right_img {
+	width: 26px;
+	height: 26px;
+	float: right;
+}
+
+.third_part .container4 .xiahuaxian {
+	width: 940px;
+	height: 2px;
+	background: url(../img/luntan/xiahuaxian.png);
+	margin-bottom: 12px;
+}
+
+.third_part .container4 .scontainer {
+	width: 940px;
+	height: 90px;
+	background: url(../img/luntan/bg10.png);
+}
+
+.third_part .container4 .scontainer .left {
+	width: 670px;
+	height: 90px;
+	float: left;
+	margin-right: 10px;
+}
+
+.third_part .container4 .scontainer .left img {
+	width: 50px;
+	height: 43px;
+	margin-top: 24px;
+	margin-left: 15px;
+	margin-right: 14px;
+	float: left;
+}
+
+.third_part .container4 .scontainer .right {
+	width: 260px;
+	height: 90px;
+	float: left;
+}

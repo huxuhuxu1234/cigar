@@ -1,0 +1,327 @@
+.friend_body_bag{
+	width: 100%;
+	overflow: hidden;
+	background-image: url(../img/friend/body_bag_bg.jpg);
+	background-size: cover;
+}
+#menu5{
+	color: #ffba6d;
+}
+.friend_bag{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.friend_body_bag .friend_bag .mianbaoxie{
+	width: 1000px;
+	height: 14px;
+	float: left;
+	margin-top: 22px;
+	margin-bottom: 19px;
+	margin-left: 9px;
+}
+.friend_body_bag .friend_bag .friend_yindao{
+	width: 1000px;
+	overflow: hidden;
+	float: left;
+	background-image: url(../img/friend/yindao_bg.png);
+}
+
+.friend_body_bag .friend_bag .friend_huanying{
+	width: 895px;
+	height: 37px;
+	margin-left:56px;
+	margin-top: 21px;
+	font-size: 23px;
+}
+.friend_body_bag .friend_bag .friend_hy_detail{
+	width: 895px;
+	height: 200px;
+	margin-left: 56px;
+	border-top: 1px dashed white;
+	
+}
+.friend_body_bag .friend_bag .friend_hy_detail .friend_hy_dt_2{
+	margin-left: 20px;
+	line-height: 24px;
+}
+.friend_body_bag .friend_bag .friend_hy_detail .friend_hy_dt_1{
+	line-height: 28px;
+	margin-top: 14px;	
+}
+.friend_body_bag .friend_bag .fd_mianbaoxie{
+	width: 1000px;
+	height: 29px;
+	margin-top: 18px;
+	float: left;
+}
+.friend_body_bag .friend_bag .fd_mianbaoxie .fd_me ,.fd_tuijian ,.fd_friend{
+	height: 29px;
+	width: 92px;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	cursor: pointer;
+}
+.friend_body_bag .friend_bag .fd_mianbaoxie .fd_me:hover{
+	background-image: url(../img/friend/fd_friend.png);
+	color: black;
+}
+.friend_body_bag .friend_bag .fd_mianbaoxie .fd_tuijian:hover{
+	background-image: url(../img/friend/fd_friend.png);
+	color: black;
+}
+.friend_body_bag .friend_bag .fd_mianbaoxie .fd_friend:hover{
+	background-image: url(../img/friend/fd_friend.png);
+	color: black;
+}
+
+.friend_body_bag .friend_bag .fd_mianbaoxie .fd_me{
+	background-image: url(../img/friend/friend_wode.png);
+	color: white;
+}
+.friend_body_bag .friend_bag .fd_mianbaoxie .fd_tuijian{
+	background-image: url(../img/friend/friend_wode.png);
+	color: white;
+	margin-left: 2px;
+}
+.friend_body_bag .friend_bag .fd_mianbaoxie .fd_friend{
+	background-image: url(../img/friend/fd_friend.png);
+	color: black;
+	margin-left: 2px;
+}
+.friend_body_bag .friend_bag .fd_fg{
+	float: left;
+	width: 1000px;
+	height: 1px;
+	margin-top: 1px;
+	background-image: url(../img/friend/friend_fg.png);
+}
+.friend_body_bag .friend_bag .fd_content{
+	width: 1000px;
+	height: 700px;
+	float: left;
+	margin-top: 12px;
+	background-color: #442d26;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_1{
+	width: 1000px;
+	height: 67px;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_1 .fd_ct_1_left{
+	line-height: 67px;
+	width: 465px;
+	height: 67px;
+	float: left;
+	margin-left: 35px;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_1 .fd_ct_1_right{
+	width: 500px;
+	height: 67px;
+	float: left;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_1 .fd_ct_1_right .fd_fds{
+	width: 110px;
+	height: 38px;
+	float: right;
+	padding-top: 6px;
+	margin-top: 12px;
+	margin-right: 20px;
+	line-height: 16px;
+	background-image: url(../img/friend/fd_fds.png);
+	text-align: center;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_list{
+	margin-top: 41px;
+	width: 362px;
+	height: 550px;
+	float: left;
+	overflow: auto;
+	overflow-x: hidden;
+	scrollbar-track-color: #E5EDF2;
+	scrollbar-base-color: #DDD;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_list .fd_fd1{
+	width: 312px;
+	height: 60px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: #B1B1B1 1px solid;
+	cursor: pointer;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_list .fd_fd1 .fd_fd1_head{
+	width: 60px;
+	height: 60px;
+	background-color: black;
+	float: left;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_list .fd_fd1 .fd_fd1_jiejian{
+	width: 212px;
+	height: 60px;
+	margin-left: 10px;
+	float: left;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_list .fd_fd1 .fd_fd1_jiejian .fd_fd1_name{
+	height: 30px;
+	color: black;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_list .fd_fd1 .fd_fd1_jiejian .fd_fd1_qianming{
+	height: 30px;
+	width: 200px;
+	overflow: hidden;	
+	color: black;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_2{
+	width: 960px;
+	height: 600px;
+	background-image: url(../img/friend/fd_fds_bg.png);
+	margin-left: 20px;
+	position: relative;
+}
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_fds_left,.fd_fds_right{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 85px;
+	cursor: pointer;
+}
+
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_fds_left{
+	background-image: url(../img/friend/fd_fds_left.png);
+	left: 408px;
+}
+
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_fds_left ul{ color: black;}
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_fds_left ul li{ list-style: none;color: black;}
+
+.friend_body_bag .friend_bag .fd_content .fd_ct_2 .fd_fds_right{
+	background-image: url(../img/friend/fd_fds_right.png);
+	right: 48px;
+}
+
+.fd_cigar_{ float: left; width: 480px; margin-left: 90px; height: 410px; vertical-align: bottom;  padding-left: 8px;
+position: relative; overflow: hidden;
+}
+
+
+/* tips */
+.fd_cigar_ .ftips {
+	height: 209px;
+	width: 184px;
+	background: url(../img/product/img7.png);
+	display: none;
+	float: left;
+	position: absolute;
+	top:95px;
+	left: 60px;
+	z-index: 2;
+}
+
+.fd_cigar_ .b_content{
+	height: 100%;
+	width: 600px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+.fd_cigar_ .ftips_active {
+	height: 209px;
+	width: 210px;
+	background: url(../img/product/img7_2.png);
+	display: none;
+	float: left;
+	position: absolute;
+	top:45px;
+	left: -200px;
+	z-index: 2;
+}
+
+.fd_cigar_ .img1{
+	width:60px;
+	height: 100%;
+	float: left;
+	position: relative;
+	margin-right: 36px;
+}
+
+.fd_cigar_ .img1 .img {
+	position: absolute;
+	bottom: 0px;
+	vertical-align: bottom;
+}
+
+radio {
+	background: red;
+}
+
+.fd_cigar_ .img1:hover .ftips {
+	display: block;
+}
+.fd_cigar_ .img1:hover .ftips_active {
+	display: block;
+}
+
+.fd_cigar_ .ftips .tips_top {
+	height: 46px;
+	width: 125px;
+	line-height: 44px;
+	border-bottom: 1px solid #dbd0c1; 
+	margin-left: 34px;
+}
+
+.fd_cigar_ .ftips_active .tips_top {
+	height: 46px;
+	width: 125px;
+	line-height: 44px;
+	border-bottom: 1px solid #dbd0c1; 
+	margin-left: 34px;
+}
+
+.fd_cigar_ .ftips .tips_middle {
+	height: 112px;
+	width: 145px;
+	margin-left: 34px;
+	margin-top: 5px;
+	font-size: 12px;
+	line-height: 24px;
+}
+.fd_cigar_ .ftips_active .tips_middle {
+	height: 112px;
+	width: 145px;
+	margin-left: 34px;
+	margin-top: 5px;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.fd_cigar_ .ftips .tips_foot {
+	height: 35px;
+	width: 90px;
+	margin-left: 60px;
+	background: url(../img/product/bg-last.png);
+	text-align: center;
+	line-height: 35px;
+	font-size: 12px;
+}
+.fd_cigar_ .tips_foot a{ cursor: pointer;}
+.fd_cigar_ .ftips_active .tips_foot {
+	height: 35px;
+	width: 90px;
+	margin-left: 60px;
+	background: url(../img/product/bg-last.png);
+	text-align: center;
+	line-height: 35px;
+	font-size: 12px;
+}
+
+.fd_cigar_ .tips_foot_img {
+	margin-top: 15px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.fd_cigar_ .no_data_tip { padding-top: 198px; font-size: 16px; width: auto;  vertical-align: middle; text-align: center; color: black;}
+.fd_cigar_ .no_data_tip img{ vertical-align: middle; margin-right: 5px;}
+

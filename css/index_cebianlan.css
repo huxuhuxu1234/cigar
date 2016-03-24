@@ -1,0 +1,227 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: white;
+}
+
+/*----------------------侧边栏原有height：1191px 原有width：457px---------------*/
+.cebianlan {
+	height: 962px;
+	width: 362px;
+	background: url(../img/cebianlan/cebianlan_background.png);
+	position: absolute;
+	padding-top: 29px;
+	padding-left: 26px;
+	padding-right: 69px;
+	z-index: 3;
+	left: -420px;
+}
+
+.cebianlan_button {
+	width: 37px;
+	height: 191px;
+	position: absolute;
+	left: 420px;
+	top: 130px;
+	cursor: pointer;
+}
+
+.cebianlan_first_part {
+	width: 362px;
+	height: 110px;
+	border-bottom: 1px solid;
+	margin-bottom: 2px;
+}
+
+.cebianlan .touxiang {
+	width: 120px;
+	height: 111px;
+	/*background: url(../img/cebianlan/touxiang1.png) no-repeat;*/
+	float: left;
+	margin-right: 12px;
+}
+
+.cebianlan .self_infor {
+	width: 70px;
+	height: 111px;
+	float: left;
+	line-height: 1.5;
+}
+
+.cebianlan .cebianlan_self {
+	font-size: 18px;
+	cursor: pointer;
+}
+
+/*-----------------------------侧边栏第二部分---------------------------------*/
+/*----------------原有height为410px---------------*/
+.cebianlan .cebianlan_second_part {
+	width: 362px;
+	height: 383px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding-top: 27px;
+	margin-bottom: 2px;
+	overflow: auto;
+}
+
+/*-----------------------------侧边栏其他部分---------------------------------*/
+.cebianlan .cebianlan_else_part {
+	width: auto;
+	height: auto;
+	border-top: 1px solid;
+	margin-bottom: 2px;
+	background: blue;
+}
+
+/*---------------------------------第二部分第一行--------------------*/
+.cebianlan .second_part_first_line {
+	margin-bottom: 18px;
+}
+
+/*---------------------第二部分第二行-----------------------------------------------*/
+/*---------------------消息模块开始，包括发布消息人头像和发布内容---------------------*/
+.cebianlan .second_part_second_line {
+	width: 260px;
+	height: 87px;
+	margin-bottom: 29px;
+}
+
+/*----------------------第三第二部分共用部分----------------------*/
+.cebianlan .second_line_left {
+	width: 41px;
+	height: 87px;
+	background: url(../img/cebianlan/touxiang2.png) no-repeat;
+	margin-right: 12px;
+	float: left;
+}
+
+/*----------------------第三第二部分共用部分----------------------*/
+.cebianlan .second_line_right {
+	width: 207px;
+	height: 87px;
+	float: left;
+	line-height: 1.5;
+}
+/*---------------------消息模块结束，包括发布消息人头像和发布内容---------------------*/
+
+/*----------------------第二部分第三行--------------------------------------------*/
+.cebianlan .second_part_third_line {
+	width: 260px;
+	height: 87px;
+	margin-bottom: 29px;
+}
+
+/*----------------------第三第二部分共用部分----------------------*/
+.cebianlan .third_line_left {
+	width: 41px;
+	height: 87px;
+	background: url(../img/cebianlan/touxiang2.png) no-repeat;
+	margin-right: 12px;
+	float: left;
+}
+
+/*----------------------第三第二部分共用部分----------------------*/
+.cebianlan .third_line_right {
+	width: 207px;
+	height: 87px;
+	float: left;
+	line-height: 1.5;
+}
+
+/*-----------------------第二部分第4行------------------------------*/
+.cebianlan .second_part_four_line {
+	width: 260px;
+	height: 87px;
+	margin-bottom: 29px;
+}
+
+/*----------------------第三第二部分共用部分----------------------*/
+.cebianlan .four_line_left {
+	width: 41px;
+	height: 87px;
+	background: url(../img/cebianlan/touxiang2.png) no-repeat;
+	margin-right: 12px;
+	float: left;
+}
+
+/*----------------------第三第二部分共用部分----------------------*/
+.cebianlan .four_line_right {
+	width: 207px;
+	height: 87px;
+	float: left;
+	line-height: 1.5;
+}
+
+.cebianlan .second_part_five_line {
+	width: 260px;
+	height: 87px;
+	margin-bottom: 29px;
+	background: red;
+}
+
+/*----------------------第三第二部分共用部分----------------------*/
+.cebianlan .five_line_left {
+	width: 41px;
+	height: 87px;
+	background: url(../img/cebianlan/touxiang2.png) no-repeat;
+	margin-right: 12px;
+	float: left;
+}
+
+/*----------------------第三第二部分共用部分----------------------*/
+.cebianlan .five_line_right {
+	width: 207px;
+	height: 87px;
+	float: left;
+	line-height: 1.5;
+}
+/*-----------------------------------第二部分结束-------------------------------*/
+
+/*-----------------------------侧边栏第三部分---------------------------------*/
+.cebianlan .cebianlan_third_part {
+	width: 362px;
+	height: 383px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin-bottom: 2px;
+	padding-top: 17px;
+	overflow: auto;
+}
+
+/*---------------------------------第三部分第一行--------------------*/
+.cebianlan .third_part_first_line {
+	margin-bottom: 29px;
+}
+
+/*-----------------------第三部分第2行------------------------------*/
+.cebianlan .third_part_second_line {
+	width: 275px;
+	height: 36px;
+	color: #CCCCCC;
+	margin-bottom: 17px;
+	border-bottom: 1px dashed gray;
+}
+
+/*-----------------------第三部分第3行------------------------------*/
+.cebianlan .third_part_third_line {
+	width: 260px;
+	height: 87px;
+	margin-bottom: 29px;
+}
+
+/*-----------------------第三部分第4行------------------------------*/
+.cebianlan .third_part_four_line {
+	width: 260px;
+	height: 87px;
+	margin-bottom: 29px;
+}
+/*------------------第三部分结束-------------------------*/
+
+
+
+
+/*     重写部分侧边栏内容       */
+#ann_content{ padding-left: 20px;}

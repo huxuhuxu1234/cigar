@@ -1,0 +1,470 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	color: white;
+}
+/*
+.index span{
+	color:black;
+	margin:0px;
+	padding:0px;
+	line-height:15px;
+	font-size:15px;
+}
+
+.index span a{
+	color:black;
+	margin:0px;
+	padding:0px;
+	line-height:15px;
+	font-size:15px;
+	position:relative;
+	top:2px;
+	left:2px;
+}
+*/
+.top{
+	height: 247px;
+	width: 100%;
+}
+.top .login_bag{
+	width: 100%;
+	height: 31px;
+	background-color: #282523;
+	
+	
+}
+.top .login_bag .login{
+	width: 1000px;
+	margin: 0 auto;
+	height: 31px;
+}
+
+.top .login_bag .login .denglu:hover,.zhuce:hover{
+	color:#FFBA6D ;
+}
+.top .login_bag .login .login1{
+	float: left;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+}
+.top .login_bag .login .login_right{
+	width: 303px;
+	float: right;
+	height: 31px;
+}
+.top .login_bag .login .login_right .login2,.login3,.login4{
+	display: block;
+}
+.top .login_bag .login .login_right .login2{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 12px;
+	background-image: url(../img/top/login1.png);
+	background-repeat: no-repeat;
+}
+.top .login_bag .login .login_right .login2:hover{
+	background-image: url(../img/top/login1_1.png);
+}
+.top .login_bag .login .login_right .login3:hover{
+	background-image: url(../img/top/login2_2.png);
+}
+.top .login_bag .login .login_right .login4:hover{
+	background-image: url(../img/top/login3_3.png);
+}
+.top .login_bag .login .login_right .login3{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 12px;
+	background-image: url(../img/top/login2.png);
+	background-repeat: no-repeat;
+	
+}
+.top .login_bag .login .login_right .login4{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 6px;
+	margin-left: 12px;
+	background-image: url(../img/top/login3.png);
+	background-repeat: no-repeat;
+	
+}
+.top .login_bag .login .login_right .search1{
+	width: 9px;
+	height: 21px;
+	background-image: url(../img/top/search1.png);
+	margin-top: 5px;
+	float: left;
+	margin-left: 29px;
+}
+.top .login_bag .login .login_right .search2{
+	width: 9px;
+	height: 21px;
+	background-image: url(../img/top/search2.png);
+	margin-top: 5px;
+	float: left;
+}
+.top .login_bag .login .login_right #login_search{
+	width: 138px;
+	height: 20px;
+	background-color: #f9f8f7;
+	display: block;
+	border-radius: 10px;
+	color: #282523;
+	margin-left: 22px;
+	padding-left: 7px;
+	margin-top: 6px;
+	border: 0;
+	float: left;
+}
+.top .login_bag .login .login_right .search3{
+	width: 24px;
+	height: 23px;
+	margin-top: 4px;
+	margin-left: 5px;
+	background-image: url(../img/top/search3.png);
+	float: left;
+}
+
+.top .login_bag .login .login_right #top_search:hover{
+	cursor: default;
+}
+
+.top .logo_bag{
+	width: 100%;
+	height: 178px;
+	background-image: url(../img/top/logo_bg.png);
+}
+.top .logo_bag .logo{
+	width: 1000px;
+	height: 178px;
+	margin: 0 auto;
+	background-image: url(../img/top/logo.png);
+}
+.top .menu_bag{
+	width: 100%;
+	height: 38px;
+	background-image: url(../img/top/menu_bg.png);
+}
+.top .menu_bag .menu{
+	width: 1000px;
+	height: 38px;
+	background-image: url(../img/top/menu.png);
+	margin: 0 auto;
+}
+.top .menu_bag .menu .menu1{
+	line-height: 38px;
+	margin-left:65px;
+	font-size: 16px;
+}
+.top .menu_bag .menu #menu2{
+	margin-left: 50px;
+}
+.top .menu_bag .menu a:hover{
+	color: #ffba6d;
+}
+.bag_denglu{
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	opacity: 0.5;
+	background: black;
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	display: none;
+}
+.denglu_bag{
+	width: 890px;
+	height: 420px;
+	display: none;
+	background-color: white;
+	position: fixed;
+	top:50%;
+	left: 50%;
+	z-index: 6;
+	margin-left: -445px;
+	margin-top: -210px;
+}
+.denglu_bag .denglu_bg{
+	width: 874px;
+	height: 404px;
+	position: relative;
+	top: 7px;
+	left: 7px;
+	border: 1px solid #e7e3dd;
+	z-index: 3;
+}
+.denglu_bag .denglu_bg .denglu_quxiao{
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	width: 18px;
+	height: 18px;
+	background-image: url(../img/top/quxiao_icon.png);
+	background-size: cover;
+	z-index: 3;
+	cursor: pointer;
+}
+.denglu_bag .denglu_bg .denglu_logo{
+	width: 177px;
+	height: 62px;
+	margin-top: 20px;
+	margin-left: 348px;
+	background-image: url(../img/top/logo1.png);
+}
+.denglu_bag .denglu_bg .denglu_fenge{
+	width: 870px;
+	height: 2px;
+	background-image: url(../img/top/denglu_fenge.png);
+	margin-top: 15px;
+}
+.denglu_bag .denglu_bg .denglu_font1{
+	width: 90px;
+	height: 14px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #362e2b;
+	margin: 22px 0 16px 40px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag{
+	width: 832px;
+	height: 230px;
+	border: 1px solid #c8c0a7;
+	background-color: #eee8d7;
+	margin-top: 18px;
+	margin-left: 19px; 
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font2{
+	width:832px;
+	height: 14px;
+	margin-top: 28px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font3{
+	width:832px;
+	height: 14px;
+	margin-top: 13px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font2 .denglu_email,.denglu_password{
+	width: 30px;
+	height: 14px;
+	line-height: 14px;
+	float: left;
+	color: black;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font2 .denglu_email{
+	margin-left: 22px;
+	width: 60px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font2 .denglu_password{
+	margin-left: 80px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font3 .denglu_email,.denglu_password{
+	width: 329px;
+	height: 14px;
+	line-height: 14px;
+	float: left;
+	color: black;
+}
+.denglu_bag .denglu_bg #zhuce_email{
+	width: 30px;
+}
+.denglu_bag .denglu_bg #zhuce_nicheng{
+	width: 50px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font3 .denglu_email{
+	margin-left: 22px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font3 .denglu_password{
+	margin-left: 60px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_3bag{
+	width: 832px;
+	height: 23px;
+	margin-top: 7px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_3bag #denglu_emailbag,#denglu_passwordbag{
+	display: block;
+	padding-left: 4px;
+	width: 325px;
+	height: 23px;
+	background-color: #fcfbf4;
+	float: left;
+	border: 0;
+	color: black;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_3bag #denglu_emailbag{
+	margin-left: 22px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_3bag #denglu_passwordbag{
+	margin-left: 80px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_3bag #reg_emailbag,#reg_passwordbag{
+	display: block;
+	padding-left: 4px;
+	width: 325px;
+	height: 23px;
+	background-color: #fcfbf4;
+	float: left;
+	border: 0;
+	color: black;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_3bag #reg_emailbag{
+	margin-left: 22px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_3bag #reg_passwordbag{
+	margin-left: 80px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_3bag #reg_emailbag1,#reg_passwordbag1{
+	display: block;
+	padding-left: 4px;
+	width: 325px;
+	height: 23px;
+	background-color: #fcfbf4;
+	float: left;
+	border: 0;
+	color: black;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_3bag #reg_emailbag1{
+	margin-left: 22px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_3bag #reg_passwordbag1{
+	margin-left: 80px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4{
+	width: 832px;
+	height: 14px;
+	line-height: 14px;
+	color: black;
+	margin-top: 22px;
+}
+
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4 #denglu_rem{
+	width: 12px;
+	height: 12px;
+	margin-left: 22px;
+	margin-top: 1px;
+	display: block;
+	float: left;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4 p{
+	display: block;
+	float: left;
+	color: black;
+	width: 120px;
+	height: 14px;
+	line-height: 14px;
+	margin-left: 6px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4_1{
+	width: 832px;
+	height: 14px;
+	line-height: 14px;
+	color: black;
+	margin-top: 22px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4_1 .left{
+	float: left;
+	width: 430px;
+	margin-top: 24px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4_1 .right{
+	float: left;
+	width: 360px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4_1 .right p{
+	color: black;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4_1 .right .yanzhengma{
+	float: left;
+	width: 120px;
+	height: 24px;
+	margin-top: 4px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4_1 .right .yzm_img{
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 3px;
+}
+
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4_1 #denglu_rem{
+	width: 12px;
+	height: 12px;
+	margin-left: 22px;
+	margin-top: 1px;
+	display: block;
+	float: left;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4_1 .left p{
+	display: block;
+	float: left;
+	color: black;
+	font-size: 12px;
+	width: 300px;
+	height: 12px;
+	line-height: 14px;
+	margin-left: 7px;
+	display: block;
+	float: left;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font4_1 .left input{
+	display: block;
+	float: left;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font5{
+	width: 810px;
+	height: 12px;
+	margin-top: 22px;
+	margin-left: 22px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font5 a{
+	text-decoration: underline;
+	color: black;
+	font-size: 12px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font6{
+	width: 832px;
+	height: 26px;
+	margin-top: 38px;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font6_1{
+	width: 832px;
+	height: 26px;
+	margin-top: 20px;
+}
+
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font6 input{
+	font-weight: bold;
+	display: block;
+	width: 100px;
+	height: 26px;
+	background-image: url(../img/top/denglu_icon.png);
+	margin-left: 22px;
+	border: 0;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font6_1 input{
+	font-weight: bold;
+	display: block;
+	width: 86px;
+	height: 26px;
+	background-image: url(../img/top/denglu_icon.png);
+	margin-left: 22px;
+	border: 0;
+}
+.denglu_bag .denglu_bg .denglu_bag_bag .denglu_font6 input:hover{
+	color: #ffba6d;
+}
+.denglu_bag .account_tip { float: left; width: 298px; line-height: 14px; height: 14px; text-align: right; color: red;}
+.denglu_bag .account_tip1 { float: left; width: 298px; line-height: 14px; height: 14px; text-align: right; color: red;}
+.denglu_bag .account_tip2 { float: left; width: 298px; line-height: 14px; height: 14px; text-align: right; color: red;}

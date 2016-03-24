@@ -1,0 +1,604 @@
+option {
+	color: #a0a0a0;
+}
+.mycigarbox_bag {
+	width: 1000px;
+	height: 740px;
+	float: left;
+	background-color: #442D26;
+	margin-top: 12px;
+}
+#menu5 {
+	color: #ffba6d;
+}
+.mycigarbox_bag .mycigarbox1 {
+	width: 944px;
+	height: 28px;
+	margin-left: 28px;
+	margin-top: 23px;
+}
+
+.mycigarbox_bag .mycigarbox1 .rongliang{
+	width: auto;
+	height: 26px;
+	line-height: 26px;
+	float: right;
+	margin-right: 15px;
+}
+#fd_mycigarbox {
+	background: url(../img/friend/fd_friend.png);
+	color: black;
+}
+#fd_friend {
+	color: white;
+	background: url(../img/friend/friend_wode.png);
+}
+.mycigarbox_bag .mycigarbox1 .mycigarbox_px_font {
+	width: 44px;
+	height: 14px;
+	float: left;
+	margin-top: 4px;
+}
+.mycigarbox_bag .mycigarbox1 .mycigarbox_paixu {
+	display: block;
+	float: left;
+	width: 160px;
+	height: 24px;
+	color: #a0a0a0;
+	background: white;
+	margin-top: 2px;
+	border: 0;
+	
+}
+.mycigarbox_bag .mycigarbox1 .mycigarbox_paixu .mycigarbox_px_pf {
+	display: block;
+	float: left;
+	color: #a0a0a0;
+}
+.mycigarbox_bag .mycigarbox1 .mycigarbox_paixu .mycigarbox_px_jt {
+	width: 24px;
+	height: 22px;
+	float: right;
+	margin-right: 1px;
+}
+.mycigarbox_bag .mycigarbox1 .mycigarbox_tj {
+	display: block;
+	float: right;
+	width: 82px;
+	height: 27px;
+	border: 0;
+	background: url(../img/mycigarbox/mcb_tj.png);
+}
+.mycigarbox_bag .mycigarbox2 {
+	width: 944px;
+	height: 600px;
+	margin-left: 28px;
+	background: url(../img/mycigarbox/mcb_content.png);
+	margin-top: 36px;
+	position: relative;
+}
+.mycigarbox_bag .mycigarbox2 .mycigarbox2_left,
+.mycigarbox2_right {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 87px;
+	cursor: pointer;
+}
+.mycigarbox_bag .mycigarbox2 .mycigarbox2_left {
+	background-image: url(../img/friend/fd_fds_left.png);
+	left: 46px;
+}
+.mycigarbox_bag .mycigarbox2 .mycigarbox2_right {
+	background-image: url(../img/friend/fd_fds_right.png);
+	right: 46px;
+}
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag {
+	width: 766px;
+	height: 600px;
+	position: absolute;
+	left: 98px;
+	overflow: hidden;
+}
+
+/*评分轮播*/
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content {
+	width: 2000px;
+	height: 600px;
+	position: relative;
+	left: 0px;
+}
+
+.mcb_view{
+	width: 747px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.mcb_view .item{
+	width: 147px;
+	height: 100%;
+	float: left;
+	left:-20px;
+	position: relative;
+}
+
+/*评分轮播end*/
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_my_pingfen {
+	width: 135px;
+	height: 120px;
+	background-color: white;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 45px;
+	left: 32px;
+}
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_my_pingfen .mcb_mypf_font {
+	color: #442D26;
+	text-align: center;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_my_pingfen .mcb_mypf_star {
+	width: 108px;
+	height: 17px;
+	/*background: url(../img/mycigarbox/mcb_mypf_xing.png);*/
+	margin-top: 4px;
+	margin-bottom: 10px;
+	margin-left: 14px;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_my_pingfen .mcb_mypf_star .star_all_content {
+	width: 108;
+	float: left;
+	/*margin-bottom: 12px;*/
+}
+
+/*----------------改版后星星的css样式-------------------*/
+/*----------------右边第一个行星星-------------------*/
+.star {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/hide_star.png) no-repeat;
+}
+
+
+.starshow {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/show_star.png) no-repeat;
+}
+
+/*.star-content {
+	display:inline;
+	float:left;
+	padding-left:10px;
+	line-height:20px;
+	font-size: 8px;
+	color: black;
+}*/
+/*-----------------星星样式结束-----------------*/
+/*----------------右边第2行星星-------------------*/
+.star1 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/hide_star.png) no-repeat;
+}
+
+
+.starshow1 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/show_star.png) no-repeat;
+}
+
+/*.star-content {
+	display:inline;
+	float:left;
+	padding-left:10px;
+	line-height:20px;
+	font-size: 8px;
+	color: black;
+}*/
+/*-----------------星星样式结束-----------------*/
+/*----------------右边第3行星星-------------------*/
+.star2 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/hide_star.png) no-repeat;
+}
+
+
+.starshow2 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/show_star.png) no-repeat;
+}
+
+/*.star-content {
+	display:inline;
+	float:left;
+	padding-left:10px;
+	line-height:20px;
+	font-size: 8px;
+	color: black;
+}*/
+/*-----------------星星样式结束-----------------*/
+/*----------------右边第4行星星-------------------*/
+.star3 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/hide_star.png) no-repeat;
+}
+
+
+.starshow3 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/show_star.png) no-repeat;
+}
+
+/*.star-content {
+	display:inline;
+	float:left;
+	padding-left:10px;
+	line-height:20px;
+	font-size: 8px;
+	color: black;
+}*/
+/*-----------------星星样式结束-----------------*/
+/*----------------右边第5行星星-------------------*/
+.star4 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/hide_star.png) no-repeat;
+}
+
+
+.starshow4 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/show_star.png) no-repeat;
+}
+
+/*.star-content {
+	display:inline;
+	float:left;
+	padding-left:10px;
+	line-height:20px;
+	font-size: 8px;
+	color: black;
+}*/
+/*-----------------星星样式结束-----------------*/
+/*----------------右边第6行星星-------------------*/
+.star5 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/hide_star.png) no-repeat;
+}
+
+
+.starshow5 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/show_star.png) no-repeat;
+}
+
+/*.star-content {
+	display:inline;
+	float:left;
+	padding-left:10px;
+	line-height:20px;
+	font-size: 8px;
+	color: black;
+}*/
+/*-----------------星星样式结束-----------------*/
+/*----------------右边第7行星星-------------------*/
+.star6 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/hide_star.png) no-repeat;
+}
+
+
+.starshow6 {
+	width:21px;
+	height:20px;
+	float:left;
+	list-style-type:none ;
+	background:url(../img/hongjiuxiangqing/show_star.png) no-repeat;
+}
+
+/*.star-content {
+	display:inline;
+	float:left;
+	padding-left:10px;
+	line-height:20px;
+	font-size: 8px;
+	color: black;
+}*/
+/*-----------------星星样式结束-----------------*/
+
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_my_pingfen .mcb_mypf_show {
+	width: 62px;
+	height: 27px;
+	background: url(../img/mycigarbox/mcb_mypf_show.png);
+	border: 0;
+	margin-left: 37px;
+	cursor: pointer;
+}
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_my_pingfen .mcb_mypf_update span {
+	color: #442d26;
+	cursor: pointer;
+}
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_my_pingfen .mcb_mypf_update {
+	margin-left: 33px;
+	line-height: 14px;
+	margin-top: 11px;
+}
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar {
+	width: 65px;
+	cursor: pointer;
+	position: absolute;
+	left: 75px;
+	height: 390px;
+}
+
+/*--------------tips弹出样式-------------------*/
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips {
+	height: 260px;
+	width: 200px;
+	background: url(../img/protect_show/bg_1.png);
+	display: none;
+	float: left;
+	position: absolute;
+	top: 120px;
+	left: 55px;
+	z-index: 3;
+	background-size: cover;
+	padding-left: 5px;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips_active {
+	height: 260px;
+	width: 200px;
+	background: url(../img/protect_show/bg_2.png);
+	display: none;
+	float: left;
+	position: absolute;
+	top: 120px;
+	left: -190px;
+	z-index: 3;
+	/*background-size: cover;*/
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar:hover .tips {
+	display: block;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar:hover .tips_active {
+	display: block;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips .tips_top {
+	height: 46px;
+	width: 145px;
+	line-height: 44px;
+	border-bottom: 1px solid white; 
+	margin-left: 34px;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips .tips_middle {
+	height: 83px;
+	width: 145px;
+	line-height: 24px;
+	margin-left: 34px;
+	margin-top: 5px;
+	font-size: 12px;
+	border-bottom: 1px solid white;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips .tips_foot {
+	height: 80px;
+	width: 145px;
+	text-align: center;
+	margin-left: 34px;
+	line-height: 39px;
+	font-size: 12px;
+	border-bottom: 1px solid white;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips .tips_foot1 {
+	height: 36px;
+	width: 145px;
+	margin-left: 34px;
+	line-height: 36px;
+	font-size: 12px;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips .option {
+	float: left;
+	height: 36px;
+	margin-right: 3px;
+}
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips .num {
+	float: left;
+	height: 36px;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips .left_key {
+	height: 22px;
+	width: 15px;
+	float: left;
+	margin-top: 8px;
+	background: url(../img/mycigarbox/bg-1.png) no-repeat;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips .num_content {
+	height: 22px;
+	width: 40px;
+	float: left;
+	margin-top: 8px;
+	line-height: 22px;
+	background: url(../img/mycigarbox/bg-2.png) no-repeat;
+	color: black;
+	text-align: center;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips .right_key {
+	height: 22px;
+	width: 15px;
+	float: left;
+	margin-top: 8px;
+	background: url(../img/mycigarbox/bg-3.png) no-repeat;
+}
+
+
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips_active .tips_top {
+	margin-left: 14px;
+	height: 46px;
+	width: 145px;
+	line-height: 44px;
+	border-bottom: 1px solid white; 
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips_active .tips_middle {
+	height: 83px;
+	width: 145px;
+	line-height: 24px;
+	margin-left: 14px;
+	margin-top: 5px;
+	font-size: 12px;
+	border-bottom: 1px solid white;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips_active .tips_foot {
+	height: 80px;
+	width: 145px;
+	text-align: center;
+	margin-left: 14px;
+	line-height: 39px;
+	font-size: 12px;
+	border-bottom: 1px solid white;
+	
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips_active .tips_foot1 {
+	height: 36px;
+	width: 145px;
+	margin-left: 14px;
+	line-height: 36px;
+	font-size: 12px;
+}
+
+/*----------------往左边显示样式-----------*/
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips_active .option {
+	float: left;
+	height: 36px;
+		margin-right: 3px;
+}
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips_active .num {
+	float: left;
+	height: 36px;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips_active .left_key {
+	height: 22px;
+	width: 15px;
+	float: left;
+	margin-top: 8px;
+	background: url(../img/mycigarbox/bg-1.png) no-repeat;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips_active .num_content {
+	height: 22px;
+	width: 40px;
+	float: left;
+	margin-top: 8px;
+	line-height: 22px;
+	background: url(../img/mycigarbox/bg-2.png) no-repeat;
+	color: black;
+	text-align: center;
+}
+
+.mycigarbox_bag .mycigarbox2 .mcb_ct_bag .mcb_content .mcb_ct_cigar .tips_active .right_key {
+	height: 22px;
+	width: 15px;
+	float: left;
+	margin-top: 8px;
+	background: url(../img/mycigarbox/bg-3.png) no-repeat;
+}
+/*-----------------弹出样式结束------------------*/
+
+
+.fd_mianbaoxie .item_active {
+	height: 29px;
+	width: 92px;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	cursor: pointer;
+	color: black;
+	background: url(../img/friend/fd_friend.png);
+}
+.fd_mianbaoxie .item {
+	height: 29px;
+	width: 92px;
+	float: left;
+	text-align: center;
+	line-height: 29px;
+	margin-left: 2px;
+	cursor: pointer;
+	color: white;
+	background: url(../img/friend/friend_wode.png);
+}
+
+/*轮播2*/
+.tj_box2_view{
+	width: 800px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.tj_box2_view .item{
+	width: 190px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+/*轮播2end*/
+

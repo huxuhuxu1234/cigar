@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[mpage_weibo.plugin]]></item>
+	<item id="RevisionID"><![CDATA[16158]]></item>
+	<item id="SN"><![CDATA[2015080319SXSa74swxJ]]></item>
+	<item id="RevisionDateline"><![CDATA[1372932001]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_mpage_weibo_SC_UTF8.xml"><![CDATA[4148fa2b03239fc23e49e79b9c398082]]></item>
+		<item id="/saetv2.ex.class.php"><![CDATA[6e1bb62380574e6668f8b21c4c8d46e2]]></item>
+		<item id="/table/table_mpage_weibo.php"><![CDATA[e29a07ffc3009c5fb9a2be1a459c3362]]></item>
+		<item id="/weibo.inc.php"><![CDATA[a343f2fb13dfe81fa9f40e74959f5539]]></item>
+		<item id="/weibo.class.php"><![CDATA[6a2047e46db81628c62673b7bc48c2e0]]></item>
+		<item id="/install.php"><![CDATA[4e342e40c06bf5440e95673310dbf46e]]></item>
+		<item id="/image/icon_logo.png"><![CDATA[cdda74a8bffa7c2c2616f1187f09e529]]></item>
+		<item id="/image/sina_login_btn.png"><![CDATA[17c901059d4ec6007cb610ef71919923]]></item>
+		<item id="/image/sina_bind_btn.png"><![CDATA[3f4ba4594ee3415d06e26aacd51e4c84]]></item>
+		<item id="/discuz_plugin_mpage_weibo_TC_BIG5.xml"><![CDATA[5e8689c505ef1ecaeb5956f79ef7b380]]></item>
+		<item id="/discuz_plugin_mpage_weibo_TC_UTF8.xml"><![CDATA[7d6d7731f8460f0e2360181daaca1e75]]></item>
+		<item id="/uninstall.php"><![CDATA[e6afd8c7044958ca9a61a5701a807b7b]]></item>
+		<item id="/bind.inc.php"><![CDATA[38487cc6d34b01bcd13a3c9a06bc45f2]]></item>
+		<item id="/login.inc.php"><![CDATA[da47408a1561347bfee826eb2574296c]]></item>
+		<item id="/config.php"><![CDATA[c31a1d2aecc5f65e63cec5fe12fd765b]]></item>
+		<item id="/template/global_usernav_extra1.htm"><![CDATA[43e33bd1b49e62368e9dd4f013e18f50]]></item>
+		<item id="/template/extend_common.css"><![CDATA[2ef18bbc0a286794b5c7e250cc143984]]></item>
+		<item id="/template/global_login_extra.htm"><![CDATA[5700383fcc27285633af1b1abbe27e16]]></item>
+		<item id="/template/register_top.htm"><![CDATA[aeff67cfcb2138a05e0f2edd0146fa60]]></item>
+		<item id="/template/logging_method.htm"><![CDATA[7b7e7a99c0e36d4883ec71f1336cdd28]]></item>
+		<item id="/template/logging_top.htm"><![CDATA[ee3168c3c8d1862da98cb1ea9cd4d1f9]]></item>
+		<item id="/template/bind.htm"><![CDATA[5c78c2abb340cc9fe032fb8f3f53b722]]></item>
+		<item id="/callback.inc.php"><![CDATA[09d93c96d8278dfff3a1fda1fb23929d]]></item>
+		<item id="/discuz_plugin_mpage_weibo_SC_GBK.xml"><![CDATA[ba0a82e612aae84b6d68cfbb1f760f1d]]></item>
+	</item>
+</root>
