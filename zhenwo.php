@@ -97,11 +97,11 @@ global $_MCONFIG;
 			
 			<div class="bag_zwfc">
 				
-				<div class="show_datu">
+                            <div class="show_datu" style="display:none">
 					<a href="" target="_blank"><p style="color: gray;display: block;font-size: 18px;margin-left: 20px;">点击图片进入帖子查看详情</p></a>
 					<a href=""><img src=""/></a>
 					<a href=""><h2 class="show_datu_text">
-						赵钱孙李
+						
 					</h2></a>
 				<img class="show_guanbi" src="img/guanbi.png"/>
 				</div>
