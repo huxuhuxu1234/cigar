@@ -212,4 +212,15 @@ function util_page($data,$page,$pageNum){
     return $ret;
 }
 
+/**
+ * 字符串截取
+ *
+ */
+function sub_str($str, $length = 0)
+{
+    $newstr = mb_strlen($str, 'utf-8') > $length ? mb_substr($str, 0, $length, 'utf-8').'....' : $str;
+ 
+    return $newstr;
+}
+
 ?>
