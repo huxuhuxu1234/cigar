@@ -23,12 +23,12 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	margin:-2px 0 0 -2px;
+	/*margin:-2px 0 0 -2px;*/
 }
 .banner_bag .banner .img_list img{
 	display: block;
 	float: left;
-	width:1002px;
+	/*width:1002px;*/
 	border:0px;
 }
 .banner_bag .banner #banner_left,#banner_right{

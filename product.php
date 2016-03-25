@@ -715,9 +715,9 @@ EOT;
 		</div>
 		<div class="tool_tip_detil_fengexian1">
 		</div>
-		<div class="tool_tip_detil_mid">
-            $desc
-        </div>
+		<div class="tool_tip_detil_mid" style="overflow:auto;">
+                        {$desc}
+                </div>
 		<div class="tool_tip_detil_fengexian2">
 		</div>
 		<div class="tool_tip_shangcheng">

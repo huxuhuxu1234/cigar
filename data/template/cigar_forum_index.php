@@ -427,7 +427,7 @@ EOT;
 							         echo <<<EOT
 <li>
 <a href="home.php?mod=space&uid={$member['uid']}" title="{$member['username']}" c="1" target="_blank" >
-<div class="middle_content_left" id="middle_content_left1">{$num_2}</div>
+<div class="middle_content_left" id="middle_content_left{$num_2}">{$num_2}</div>
 <div class="middle_content_middle">{$member['username']}</div>
 <div class="middle_content_right">积分:{$member['credits']}</div>
 </a>
@@ -452,7 +452,7 @@ EOT;
 							         echo <<<EOT
 <li>
 <a href="home.php?mod=space&uid={$member['uid']}" title="{$member['username']}" c="1" target="_blank" >
-<div class="middle_content_left" id="middle_content_left1">{$num_1}</div>
+<div class="middle_content_left" id="middle_content_left{$num_1}">{$num_1}</div>
 <div class="middle_content_middle">{$member['username']}</div>
 <div class="middle_content_right">积分:{$member['credits']}</div>
 </a>
