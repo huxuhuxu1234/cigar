@@ -14,6 +14,23 @@ $t1_brands = C::t('cigar_brands')->_list($type_data[0]['tid']);
 $t2_brands = C::t('cigar_brands')->_list($type_data[1]['tid']);
 $t3_brands = C::t('cigar_brands')->_list($type_data[2]['tid']);
 $t4_brands = C::t('cigar_brands')->_list($type_data[3]['tid']);
+foreach ($t1_brands as $key => $row){
+        $value_1[$key]  = $row['value'];
+}
+foreach ($t2_brands as $key => $row){
+        $value_2[$key]  = $row['value'];
+}
+foreach ($t3_brands as $key => $row){
+        $value_3[$key]  = $row['value'];
+}
+foreach ($t4_brands as $key => $row){
+        $value_4[$key]  = $row['value'];
+}
+array_multisort($value_1, SORT_ASC, $t1_brands);
+array_multisort($value_2, SORT_ASC, $t2_brands);
+array_multisort($value_3, SORT_ASC, $t3_brands);
+array_multisort($value_4, SORT_ASC, $t4_brands);
+
 
 
 // 获取高级搜索的具体子项
