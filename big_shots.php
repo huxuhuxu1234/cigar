@@ -74,6 +74,8 @@ global $_MCONFIG;
 				    //输出所有雪茄大咖的信息
 				    $i = 0;
 				    foreach ($data as $row){
+						$sName = sub_str($row['sName'],10);
+						$pName = sub_str($row['pName'],10);
 				        $line = 'daka_pp_1';
 				        if($i++ >= 4){
 				            $line = 'daka_pp_2';
@@ -89,7 +91,7 @@ global $_MCONFIG;
 						</div>
 						<div class="daka_pp_1_foot">
 							<div style="color:#543421;" class="daka_pp_foot_left">
-								{$row['sName']}<br />{$row['pName']}
+								{$sName}<br/>{$pName}
 							</div>
 							<button class="daka_pp_foot_right" onclick="location='big_shots_talk.php?id=$id'">
 								<div class="daka_pp_more">

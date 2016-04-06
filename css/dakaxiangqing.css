@@ -44,7 +44,7 @@
 
 .banner_bag_main .banner_bag_main_bg{
 	width:960px;
-	height:480px;
+	height:88%;
 	background-color:#d1c0a5;
 }
 
@@ -73,6 +73,10 @@
 	width: 370px;
 }
 
+.banner_bag_main .left_part .left_part_bottom *{
+	color:#523C33;
+}
+
 /*-------------右边文字部分,原有height：614px，width：667px-------------*/
 .banner_bag_main .right_part {
 	width: 570px;
@@ -90,6 +94,10 @@
 	margin-bottom: 110px;
 	overflow-x: hidden;
 	overflow-y: auto;
+}
+
+.banner_bag_main .right_part .right_part_top  *{
+	color:#523C33;
 }
 
 .banner_bag_main .right_part .right_part_bottom {
