@@ -38,7 +38,7 @@
 }
 .product_show_bag .product_show .content1 .content1_left .content1_left_top{
 	height: 26px;
-	width: 400px;
+	/*width: 400px;*/
 	margin-left: 25px;
 	margin-bottom: 10px;
 	margin-top: 32px;
@@ -165,9 +165,9 @@
 }
 
 .product_show_bag .product_show .tips .tips_top {
-	height: 46px;
-	width: 135px;
-	line-height: 44px;
+	/*height: 46px;*/
+	width: 140px;
+	/*line-height: 44px;*/
 	border-bottom: 1px solid white; 
 	margin-left: 34px;
 }

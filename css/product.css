@@ -193,7 +193,7 @@
 
 /* tips */
 .banner_bag_main_all_right .tips {
-	height: 209px;
+	/*height: 209px;*/
 	width: 184px;
 	background: url(../img/product/img7.png);
 	display: none;
@@ -233,9 +233,9 @@ radio {
 }
 
 .banner_bag_main_all_right .tips .tips_top {
-	height: 46px;
-	width: 125px;
-	line-height: 44px;
+	/*height: 46px;*/
+	width: 140px;
+	/*line-height: 44px;*/
 	border-bottom: 1px solid #dbd0c1; 
 	margin-left: 34px;
 }
@@ -251,7 +251,7 @@ radio {
 }
 
 .banner_bag_main_all_right .tips .tips_middle {
-	height: 112px;
+	/*height: 112px;*/
 	width: 145px;
 	margin-left: 34px;
 	margin-top: 5px;
